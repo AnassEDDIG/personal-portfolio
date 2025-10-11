@@ -1,0 +1,14 @@
+/* Hero component styling */
+.highlighted-word {
+  color: var(--text-primary);
+}
+
+/* Education card styling */
+.cards-wrapper:hover .card {
+  opacity: 0.4;
+  transition: opacity 0.3s ease;
+}
+
+.cards-wrapper .card:hover {
+  opacity: 1;
+}

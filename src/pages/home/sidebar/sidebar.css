@@ -1,0 +1,23 @@
+.section-highlight:hover:before {
+  width: 80px;
+  background-color: var(--text-primary);
+}
+
+.current-section-highlighter:before {
+  content: "";
+  position: "absolute";
+  left: 0;
+  width: 40px;
+  height: 2px;
+  border-radius: 20px;
+  background-color: var(--bg-secondary);
+  margin-right: 5px;
+  transition-property: background, width;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
+}
+
+.current-section-highlighter.active:before {
+  width: 75px;
+  background-color: var(--text-primary)
+}
