@@ -5,7 +5,7 @@ import { Sidebar } from "./sidebar/Sidebar";
 
 export const Home = () => {
   return (
-    <main className="flex items-start gap-10 py-24 px-20">
+    <main className="flex items-start gap-10">
       <div className="max-w-(--sideBar-width)">
         <Sidebar />
       </div>

@@ -37,8 +37,8 @@ const CursorLight = () => {
         pointerEvents: 'none',
         left: stylePos.x,
         top: stylePos.y,
-        width: 300,
-        height: 300,
+        width: 350,
+        height: 350,
         borderRadius: '50%',
         background: `radial-gradient(
     circle,

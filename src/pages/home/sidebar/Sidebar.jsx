@@ -60,7 +60,7 @@ export const Sidebar = () => {
         ))}
       </div>
 
-      <div className="flex gap-2 mt-20 text-lg">
+      <div className="flex gap-4 mt-20 text-xl">
         <FaGithub />
         <FaLinkedin />
         <SiLeetcode />

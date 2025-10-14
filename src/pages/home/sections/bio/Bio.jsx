@@ -1,7 +1,7 @@
 import { Hero } from "./hero/Hero";
 import { Education } from "./education/Education";
 import { ViewMore } from "../../../../components/commun/ViewMore";
-import "./bio.css";
+import "./Bio.css";
 
 export const Bio = () => {
   return (
