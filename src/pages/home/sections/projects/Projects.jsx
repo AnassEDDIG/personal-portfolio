@@ -1,6 +1,6 @@
-import { ViewMore } from "../../../../components/commun/ViewMore";
+import { ViewMore } from "@/components/commun/ViewMore";
 import { ProjectCard } from "./ProjectCard";
-import { projectsData } from "./projectsData";
+import { projectsData } from "@/data/projectsData";
 
 export const Projects = () => {
   return (

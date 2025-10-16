@@ -1,6 +1,5 @@
-import { skillsIcons } from "../../../../assets/skills-icons";
-import { CgArrowsExpandUpRight } from "react-icons/cg";
-import { ViewMore } from "../../../../components/commun/ViewMore";
+import { skillsIcons } from "@/assets/skills-icons";
+import { ViewMore } from "@/components/commun/ViewMore";
 
 export const Stack = () => {
   const stack = [

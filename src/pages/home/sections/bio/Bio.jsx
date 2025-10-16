@@ -1,6 +1,6 @@
 import { Hero } from "./hero/Hero";
 import { Education } from "./education/Education";
-import { ViewMore } from "../../../../components/commun/ViewMore";
+import { ViewMore } from "@/components/commun/ViewMore";
 import "./Bio.css";
 
 export const Bio = () => {

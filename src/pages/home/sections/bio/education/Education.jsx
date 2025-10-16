@@ -1,6 +1,5 @@
 import { EducationCard } from "./EducationCard";
-import { CgArrowsExpandUpRight } from "react-icons/cg";
-import { educationData } from "../bioData";
+import { educationData } from "@/data/bioData";
 
 export const Education = () => {
   return (
