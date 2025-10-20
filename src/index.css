@@ -22,8 +22,12 @@
   --text-secondary: #e5e5e5;
   --text-tertiary: #a3a3a3;
 
+  /* padding */
+  --main-padding-x: 80px;
+  --main-padding-y: 88px;
+
   /* widths */
-  --sideBar-width: 30%;
+  --sidebar-width: 30%;
 
   /* spacing */
   --sections-spacing: 8rem;

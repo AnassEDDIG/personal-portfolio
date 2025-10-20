@@ -5,11 +5,11 @@ import { Sidebar } from "./sidebar/Sidebar";
 
 export const Home = () => {
   return (
-    <main className="flex items-start gap-10">
-      <div className="max-w-(--sideBar-width)">
+    <main className="w-full flex items-start">
+      <div>
         <Sidebar />
       </div>
-      <div className="ml-(--sideBar-width) space-y-(--sections-spacing) max-w-[70%]">
+      <div className="ml-[calc(var(--sidebar-width)+48px)] space-y-(--sections-spacing)">
         <Bio />
         <Stack />
         <Projects />

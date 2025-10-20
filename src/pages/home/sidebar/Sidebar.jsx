@@ -34,13 +34,13 @@ export const Sidebar = () => {
   }, []);
 
   return (
-    <div className="space-y-3 fixed">
+    <div className="max-w-(--sidebar-width) space-y-3 fixed">
       <h1 className="text-4xl sm:text-5xl font-bold">Anass EDDIG</h1>
       <p className="text-(--text-secondary) font-semibold">
         Full Stack Developer
-        <span className="text-(--accent-primary)">.</span>
+        <span className="text-(--accent-primary) text-3xl leading-1">.</span>
       </p>
-      <p className="text-(--text-tertiary) text-sm w-2/3">
+      <p className="text-(--text-tertiary) text-sm text-balance">
         I build pixel-perfect, performant web apps with a focus on user
         experience.
       </p>

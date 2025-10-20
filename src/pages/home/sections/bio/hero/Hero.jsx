@@ -1,6 +1,6 @@
 export const Hero = () => {
   return (
-    <div className="relative text-(--text-tertiary) space-y-4 px-6 ">
+    <div className="relative text-(--text-tertiary) space-y-4 px-6">
       <p>
         I'm a <span className="highlighted-word">full-stack developer</span>{" "}
         passionate about transforming ideas—or Figma designs—into

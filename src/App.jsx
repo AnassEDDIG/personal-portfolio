@@ -9,9 +9,9 @@ function App() {
   }, []);
 
   return (
-    <main className="py-24 px-20">
+    <main className="py-(--main-padding-y) px-(--main-padding-x)">
       <CursorLight />
-      <GalaxyBackground></GalaxyBackground>
+      <GalaxyBackground />
       <AllRoutes />
     </main>
   );
