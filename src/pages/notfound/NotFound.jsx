@@ -16,7 +16,7 @@ export const NotFound = () => {
 
         <div className="mt-6 flex flex-col sm:flex-row sm:items-center gap-3 sm:gap-4 justify-center md:justify-start">
           <Link to="/" className="inline-block">
-            <button className="relative cursor-pointer px-5 py-2 flex items-center gap-2 rounded-md bg-(--bg-secondary) font-medium shadow-lg group duration-300">
+            <button className="relative cursor-pointer px-5 py-2 flex items-center gap-2 rounded-md bg-(--bg-tertiary) font-medium shadow-lg group duration-300">
               <div className="absolute top-0 left-0 w-4 h-4 border-t-2 border-l-2 border-(--accent-tertiary) rounded-xs group-hover:w-8 group-hover:h-8 duration-300" />
               <div className="absolute bottom-0 right-0 w-4 h-4 border-b-2 border-r-2 border-(--accent-tertiary) rounded-xs group-hover:w-8 group-hover:h-8 duration-300" />
               <IoArrowBack /> Back to base

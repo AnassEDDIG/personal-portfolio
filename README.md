@@ -46,7 +46,6 @@ Demo: [🔗 View Live](https://vercel-landing-clone-mu.vercel.app/)
 
 If you’d like to connect or collaborate:
 
-- 💼 [LinkedIn](https://linkedin.com/in/anass-eddig)
 - 🌐 [Portfolio (Coming Soon)]
 - ✉️ Email: eddiganass8@gmail.com
 

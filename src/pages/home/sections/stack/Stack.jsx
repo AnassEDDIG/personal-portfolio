@@ -37,7 +37,10 @@ export const Stack = () => {
           </div>
         ))}
       </div>
-      <ViewMore text={"View Full Technologies and Tools"} />
+      <ViewMore
+        text={"View Full Technologies and Tools"}
+        link="/technologies"
+      />
     </div>
   );
 };

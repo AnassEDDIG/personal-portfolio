@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export const ViewMore = ({ text, link }) => {
   return (
     <Link to={link} className="px-6 mt-10">
-      <div className="flex items-center gap-1 duration-300 hover:text-(--accent-secondary) group">
+      <div className="flex items-center gap-1 duration-300 hover:text-(--accent-secondary) group exo-font">
         {text}
         <CgArrowsExpandUpRight className="text-lg duration-300 group-hover:animate-pulse" />
       </div>

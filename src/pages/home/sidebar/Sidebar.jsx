@@ -35,7 +35,7 @@ export const Sidebar = () => {
 
   return (
     <div className="max-w-(--sidebar-width) space-y-3 fixed">
-      <h1 className="text-4xl sm:text-5xl font-bold">Anass EDDIG</h1>
+      <h1 className="text-4xl sm:text-5xl font-bold exo-font">Anass EDDIG</h1>
       <p className="text-(--text-secondary) font-semibold">
         Full Stack Developer
         <span className="text-(--accent-primary) text-3xl leading-1">.</span>
