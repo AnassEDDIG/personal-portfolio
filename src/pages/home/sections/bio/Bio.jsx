@@ -10,7 +10,9 @@ export const Bio = () => {
         <Hero />
         <Education />
       </div>
-      <ViewMore text={"View full resume"} />
+      <span onClick={() => window.open("./resume.pdf", "_blank")}>
+        <ViewMore text={"View full resume"} />
+      </span>
     </div>
   );
 };

@@ -1,5 +1,5 @@
 import GalaxyBackground from "./components/effects/GalaxyBackground";
-import CursorLight from "./components/effects/CursorLight";
+import {CursorLight} from "./components/effects/CursorLight";
 import { useEffect } from "react";
 import { AllRoutes } from "./Routes/AllRoutes";
 
