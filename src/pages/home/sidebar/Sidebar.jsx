@@ -34,7 +34,7 @@ export const Sidebar = () => {
   }, []);
 
   return (
-    <div className="max-w-(--sidebar-width) space-y-3 fixed">
+    <div className="lg:max-w-(--sidebar-width) space-y-3 lg:fixed">
       <h1 className="text-4xl sm:text-5xl font-bold exo-font">Anass EDDIG</h1>
       <p className="text-(--text-secondary) font-semibold">
         Full Stack Developer
@@ -45,7 +45,7 @@ export const Sidebar = () => {
         experience.
       </p>
 
-      <div className="mt-10 space-y-3">
+      <div className="mt-10 space-y-3 hidden lg:block">
         {["bio", "stack", "projects"].map((ele, index) => (
           <li
             key={index}
@@ -60,7 +60,7 @@ export const Sidebar = () => {
         ))}
       </div>
 
-      <div className="flex gap-4 mt-20 text-xl">
+      <div className="flex gap-4 mt-6 lg:mt-20 text-xl">
         <FaGithub />
         <FaLinkedin />
         <SiLeetcode />

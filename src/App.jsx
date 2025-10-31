@@ -9,7 +9,7 @@ function App() {
   }, []);
 
   return (
-    <main className="py-(--main-padding-y) px-(--main-padding-x)">
+    <main className="py-8 lg:py-(--main-padding-y) px-4 lg:px-(--main-padding-x)">
       <CursorLight />
       <GalaxyBackground />
       <AllRoutes />

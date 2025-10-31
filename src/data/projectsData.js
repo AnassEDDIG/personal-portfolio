@@ -33,6 +33,18 @@ export const projectsData = [
     shortLink: "edanaas-theme-vscode",
     repo: "https://github.com/AnassEDDIG/edanas-vscode-theme",
     image:
-      "https://ik.imagekit.io/dk03vfb2z/anass/Portfolio/Projects/edanaas-vscode-theme.png",
+      "https://ik.imagekit.io/dk03vfb2z/anass/Portfolio/Projects/edanas-vscode-theme.png?updatedAt=1761948076641",
+  },
+  {
+    id: 4,
+    title: "ConfigForge CLI",
+    description:
+      "A Node.js CLI tool designed to simplify environment management. It allows developers to seamlessly merge multiple `.env` files, resolve conflicts interactively, and validate variables against a schema before deployment — ensuring clean, consistent configurations across environments.",
+    stack: ["Node.js", "TypeScript", "CLI Design"],
+    link: "",
+    shortLink: "configforge-cli",
+    repo: "https://github.com/AnassEDDIG/env-config-cli",
+    image:
+      "https://ik.imagekit.io/dk03vfb2z/anass/Portfolio/Projects/configforge-cli.png?updatedAt=1761948076641",
   },
 ];
