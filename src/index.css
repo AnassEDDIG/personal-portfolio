@@ -31,8 +31,7 @@
   --sidebar-width: 30%;
 
   /* spacing */
-  --sections-spacing-lg: 8rem;
-  --sections-spacing-sm: 4rem;
+  --sections-spacing: 4rem;
 
   /* border */
   --border-primary: #33323241;

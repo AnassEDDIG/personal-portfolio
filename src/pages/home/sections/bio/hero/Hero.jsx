@@ -1,10 +1,7 @@
-import { SectionTitle } from "@/components/commun/SectionTitle";
-
 export const Hero = () => {
   return (
     <section>
-      <SectionTitle text={"Bio"} />
-      <div className="relative text-(--text-tertiary) space-y-4">
+      <div className="relative text-(--text-tertiary) text-balance space-y-4">
         <p>
           I'm a <span className="highlighted-word">full-stack developer</span>{" "}
           passionate about transforming ideas—or Figma designs—into

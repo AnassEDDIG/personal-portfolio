@@ -2,12 +2,13 @@ import { Hero } from "./hero/Hero";
 import { Education } from "./education/Education";
 import { ViewMore } from "@/components/commun/ViewMore";
 import "./Bio.css";
-import { SectionTitle } from "../../../../components/commun/SectionTitle";
+import { SectionTitle } from "@/components/commun/SectionTitle";
 
 export const Bio = () => {
   return (
     <div id="bio" className="px-2 md:px-6">
-      <div className="space-y-(--sections-spacing-sm) xl:space-y-(--sections-spacing-lg)">
+      <SectionTitle text={"Bio"} />
+      <div className="space-y-(--sections-spacing)">
         <Hero />
         <Education />
       </div>

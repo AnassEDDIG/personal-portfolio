@@ -9,7 +9,7 @@ export const ProjectCard = ({ project }) => {
       target="_blank"
       className="opacity-80 group"
     >
-      <div className="p-6 grid grid-cols-[1fr_3fr] gap-16 rounded-md duration-300 group-hover:bg-(--bg-tertiary) group-hover:opacity-100 group-hover:shadow-(--glass-shadow)">
+      <div className="p-6 grid grid-cols-1 sm:grid-cols-[1fr_3fr] gap-16 rounded-md duration-300 group-hover:bg-(--bg-tertiary) group-hover:opacity-100 group-hover:shadow-(--glass-shadow) bg-(--bg-tertiary) lg:bg-transparent hover:bg-(--bg-tertiary) shadow-(--glass-shadow) lg:shadow-none  lg:hover:shadow-(--glass-shadow)">
         <div className="select-none">
           <img
             className="border-2 border-(--bg-secondary)/40 rounded-md"
@@ -27,7 +27,7 @@ export const ProjectCard = ({ project }) => {
           </p>
           <div className="flex items-center gap-2">
             {project.stack.map((ele) => (
-              <p className="text-xs text-(--accent-secondary) bg-(--accent-tertiary)/30 w-fit px-4 py-2 rounded-full flex items-center gap-2">
+              <p className="text-xs text-(--accent-secondary) bg-(--accent-tertiary)/30 w-fit px-2 sm:px-4 py-2 rounded-full flex items-center gap-2">
                 {ele}
               </p>
             ))}

@@ -1,5 +1,6 @@
 import { skillsIcons } from "@/assets/skills-icons";
 import { ViewMore } from "@/components/commun/ViewMore";
+import { SectionTitle } from "@/components/commun/SectionTitle";
 
 export const Stack = () => {
   const stack = [
@@ -18,9 +19,10 @@ export const Stack = () => {
     { name: "Sass", logo: skillsIcons.sass },
   ];
   return (
-    <div id="stack">
-      <div className="grid grid-cols-3 gap-4">
-        {stack.map((tech) => (
+    <div id="stack" className="px-2 md:px-6">
+      <SectionTitle text={"Stack"} />
+      <div className="grid grid-cols-3 xl:grid-cols-4 gap-4">
+        {stack.slice(0, 12).map((tech) => (
           <div
             key={tech.name}
             className="flex flex-col items-center bg-(--bg-tertiary) group hover:shadow-(--shadow-primary) p-4 rounded-md grayscale-100 hover:grayscale-0 duration-300"
