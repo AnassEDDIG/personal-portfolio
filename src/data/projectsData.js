@@ -47,4 +47,15 @@ export const projectsData = [
     image:
       "https://ik.imagekit.io/dk03vfb2z/anass/Portfolio/Projects/configforge-cli.png?updatedAt=1761948076641",
   },
+  {
+    id: 5,
+    title: "Gemini AI Content Generator",
+    description:
+      "A RESTful API built with Express.js that integrates Google Gemini AI to generate creative content for blogs, social media posts, emails, and more. It features user authentication, prompt management, tone and type customization, and secure data handling — providing a flexible AI-powered content creation backend.",
+    stack: ["Node.js", "Express.js", "MongoDB", "Gemini AI"],
+    link: "https://github.com/AnassEDDIG/ai-content-assistant",
+    shortLink: "ai-content-assistant",
+    repo: "https://github.com/AnassEDDIG/ai-content-assistant",
+    image: "",
+  },
 ];
